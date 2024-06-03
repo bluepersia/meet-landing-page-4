@@ -7,6 +7,8 @@
     --c-DarkGrey: #28283D;
     --c-Grey: #87879D;
     --c-White: white;
+
+    --f-1: "Red Hat Display", sans-serif;
 }
 
 body {
@@ -23,5 +25,108 @@ body {
 
 * :last-child {
     margin-bottom: 0;
+}
+
+
+/* Typography */
+
+body {
+    font-family: var(--f-1);
+}
+
+p {
+    line-height: 1.6;
+    font-weight: 500;
+    color: var(--c-Grey);
+}
+
+h1, h2, h3, h4, h5 
+{
+    font-weight: 900;
+    line-height: 1.1;
+    color: var(--c-DarkGrey);
+}
+
+#hero__title 
+{
+    font-size: 2.5rem;
+}
+
+#section-1__heading
+{
+    color: var(--c-Cyan);
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    font-size: 16px;
+}
+
+
+
+
+/* Components Typography */
+
+.btn {
+    font-family: inherit;
+    font-weight: 900;
+    color:var(--c-White);
+    font-size: inherit;
+}
+
+
+
+.section-enumerator__num {
+    font-size: 1rem;
+    color: var(--c-Grey);
+}
+
+.heading-2 
+{
+    font-size: 2rem;
+}
+
+
+
+
+
+@media (min-width:768px)
+{
+    #hero__title 
+    {
+        font-size: 3rem;
+    }
+
+
+    /* Components Typography */
+
+
+    .heading-2 {
+        font-size: 2.5rem;
+    }
+
+}
+
+
+@media (min-width: 1440px)
+{
+    html {
+        font-size: 18px;
+    }
+
+    p {
+        line-height: 1.44;
+    }
+    #hero__title 
+    {
+        font-size: 3.55rem;
+    }
+
+    
+    /* Components Typo */
+
+    .heading-2 {
+        font-size: 2.22rem;
+    }
+  
+
 }
 
