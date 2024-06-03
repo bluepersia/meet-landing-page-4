@@ -1,0 +1,27 @@
+:root 
+{
+    --c-Cyan: #4D96A9;
+    --c-CyanLight: #8FE3F9;
+    --c-Purple: #855FB1;
+    --c-PurpleLight: #D9B8FF;
+    --c-DarkGrey: #28283D;
+    --c-Grey: #87879D;
+    --c-White: white;
+}
+
+body {
+    margin: 0;
+}
+
+* { 
+    box-sizing: border-box;
+}
+
+* :first-child {
+  margin-top: 0;  
+}
+
+* :last-child {
+    margin-bottom: 0;
+}
+
